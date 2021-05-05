@@ -1,6 +1,6 @@
 # portfolio-project
 
-**Remember that this project cannot be submitted late.**
+
 
 Write a class named GessGame for playing an abstract board game called Gess. You can see the rules [here](https://www.chessvariants.com/crossover.dir/gess.html).  Note that when a piece's move causes it to overlap stones, any stones covered by the **footprint** get removed, not just those covered by one of the piece's stones.  It is not legal to make a move that leaves you without a ring.  It's possible for a player to have more than one ring.  A player doesn't lose until they have no remaining rings.
 
@@ -26,4 +26,4 @@ game.make_move('e14', 'g14')
 state = game.get_game_state()
 game.resign_game()
 ```
-The file must be named: **GessGame.py**
+
